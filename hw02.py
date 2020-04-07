@@ -24,6 +24,24 @@ else:
 # qwerty (или любая другая строка)
 # Я не понимаю, что вы от меня хотите...
 
+#цикл for
+i = 1
+chet = str("четные")
+nechet = str("нечетные")
+a = input("Четные или нечетные?")
+if a == chet:
+    for i in range(1, 21):
+        if i % 2 == 0:
+            print(i)
+elif a == nechet:
+    for i in range(1, 21):
+        if i % 2 != 0:
+            print(i)
+else:
+    print("Я не понимаю чего вы от меня хотите..")
+
+
+#цикл while
 i = 1
 chet = str("четные")
 nechet = str("нечетные")
@@ -59,6 +77,7 @@ while a > 0:
         m = a % 10
     a = a // 10
 print(m)
+
 
 
 #2 решение
